@@ -46,7 +46,7 @@ extras_require["h5tools"] = read_requirements_from_here(here, "requirements-hdf5
 
 setup(
     name="pyscicat",
-    version="0.26-maxiv-temp",
+    version="0.26.1",
     description="Code for communicating to a SciCat backend server python",
     long_description=readme,
     author="Dylan McReynolds",
