@@ -1,7 +1,6 @@
 from pathlib import Path
 from setuptools import setup, find_packages
 import sys
-import versioneer
 
 min_version = (3, 7)
 if sys.version_info < min_version:
@@ -47,8 +46,7 @@ extras_require["h5tools"] = read_requirements_from_here(here, "requirements-hdf5
 
 setup(
     name="pyscicat",
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version="0.26-maxiv-temp",
     description="Code for communicating to a SciCat backend server python",
     long_description=readme,
     author="Dylan McReynolds",
